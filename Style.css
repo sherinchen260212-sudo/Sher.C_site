@@ -132,10 +132,12 @@ opacity: 1;
   align-items: center;
   padding: 3px;
 }
-.gallery img
-body {
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
 
-.media (max-width: 500px) {
+@media (max-width: 500px) {
   .row.text-center.justify-content-center {
     display: flex;
     flex-wrap: nowrap;
@@ -152,7 +154,7 @@ body {
 
 .project-section {
   background-color: #e6ebff; /* warna background */
-  padding: 2rem;
+  padding: 0rem;
 }
 
 .image-gallery {
@@ -178,12 +180,6 @@ body {
   width: 2px;
   background-color: var(--rf-brand);
 }
-<script src="script.js"></script>
-</body>
-</html>
 
 
 
-
-.text
-font-size: 20px;
